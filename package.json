@@ -1,0 +1,23 @@
+{
+  "author": "fractal (http://wearefractal.com)",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "coffeeify": "^1.0.0",
+    "fission": "fissionjs/fission",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-autowatch": "^1.0.1",
+    "gulp-cached": "^1.0.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-stylus": "^2.0.1",
+    "nib": "^1.1.0",
+    "react": "^0.12.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.4.0"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "express": "^4.12.0"
+  }
+}
