@@ -12,8 +12,8 @@ module.exports = component
       red: 255
       green: 255
       blue: 255
-      top: 50
-      left: 50
+      y: 50
+      x: 50
       name: null
       connected: false
     o
@@ -40,12 +40,12 @@ module.exports = component
 
     window.ondevicemotion = (e) =>
       @setState
-        top: Math.floor (e.accelerationIncludingGravity.y * -5)+50
-        left: Math.floor (e.accelerationIncludingGravity.x * 5)+50
+        y: Math.floor (e.accelerationIncludingGravity.y * -5)+50
+        x: Math.floor (e.accelerationIncludingGravity.x * 5)+50
 
       sockets.emit 'accel',
-        top: @state.top
-        left: @state.left
+        y: @state.y
+        x: @state.x
         name: @state.name
 
     @changeBackground = setInterval =>
@@ -72,8 +72,8 @@ module.exports = component
       div
         className: 'dot'
         style:
-          top: "#{@state.top-5}%"
-          left: "#{@state.left-5}%"
+          top: "#{@state.y-5}%"
+          left: "#{@state.x-5}%"
       if not @state.connected
         Message
           text: 'disconnected. Click to reconnect'

@@ -21,6 +21,7 @@ paths =
   bundle: './client/index.coffee'
   html: './client/**/*.html'
   stylus: './client/**/*.styl'
+  vendor: './client/vendor/**'
 
 
 # javascript
@@ -64,6 +65,10 @@ gulp.task 'stylus', ->
     .pipe gulp.dest './public'
     .pipe reload()
 
+gulp.task 'vendor', ->
+  gulp.src paths.vendor
+    .pipe gulp.dest './public'
+    .pipe reload()
 
 gulp.task 'server', (cb) ->
   server = require './server'
@@ -79,4 +84,4 @@ gulp.task 'watch', (cb) ->
   cb()
 
 gulp.task 'build', gulp.parallel 'js', 'stylus', 'html', 'img'
-gulp.task 'default', gulp.series 'server', 'build', 'watch'
+gulp.task 'default', gulp.series 'server', 'build', 'watch', 'vendor'
