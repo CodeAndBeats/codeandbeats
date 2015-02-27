@@ -59,11 +59,26 @@ module.exports = component({
       green: 255,
       blue: 255,
       top: 50,
-      left: 50
+      left: 50,
+      name: null
     };
     return o;
   },
   mounted: function() {
+    var name;
+    name = localStorage.getItem('name');
+    if (name == null) {
+      name = prompt('Please enter your name');
+      if (name !== null) {
+        localStorage.setItem('name', name);
+      }
+    }
+    if (name == null) {
+      return;
+    }
+    this.setState({
+      name: name
+    });
     window.ondevicemotion = (function(_this) {
       return function(e) {
         _this.setState({
@@ -72,7 +87,8 @@ module.exports = component({
         });
         return sockets.emit('accel', {
           top: _this.state.top,
-          left: _this.state.left
+          left: _this.state.left,
+          name: _this.state.name
         });
       };
     })(this);

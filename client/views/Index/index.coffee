@@ -13,9 +13,22 @@ module.exports = component
       blue: 255
       top: 50
       left: 50
+      name: null
     o
 
   mounted: ->
+
+    name = localStorage.getItem 'name'
+
+    if !name?
+      name = prompt 'Please enter your name'
+      if name != null
+        localStorage.setItem 'name', name
+
+
+    return unless name?
+
+    @setState name: name
 
     window.ondevicemotion = (e) =>
       @setState
@@ -25,6 +38,7 @@ module.exports = component
       sockets.emit 'accel',
         top: @state.top
         left: @state.left
+        name: @state.name
 
     @changeBackground = setInterval =>
       @setState
