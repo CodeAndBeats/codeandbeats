@@ -7,6 +7,11 @@
   box-sizing: border-box;
   z-index: 0;
 }
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
@@ -14,6 +19,33 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.index-component {
+.navbar-component {
+  width: 100%;
+  height: 55px;
   background: #fff;
+  box-shadow: 0 0 2px #555;
+}
+.navbar-component .logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  margin-left: 25%;
+  font-size: 25px;
+  color: #171717;
+  text-align: center;
+}
+
+.index-component {
+  height: 100%;
+  width: 100%;
+  transition: all 3s;
+}
+.index-component .dot {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background: rgba(200,200,200,0.5);
+  box-shadow: 0 0 2px #555;
+  border-radius: 50%;
 }

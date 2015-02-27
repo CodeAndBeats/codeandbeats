@@ -9,7 +9,7 @@ React.render(Index(), document.body);
 
 
 
-},{"./views/Index":"/www/node/codeandbeats-client/client/views/Index/index.coffee","fission":"/www/node/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats-client/client/views/Index/index.coffee":[function(require,module,exports){
+},{"./views/Index":"/www/node/codeandbeats-client/client/views/Index/index.coffee","fission":"/www/node/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats-client/client/components/Navbar/index.coffee":[function(require,module,exports){
 var DOM, component, div, ref;
 
 ref = require('fission'), component = ref.component, DOM = ref.DOM;
@@ -17,20 +17,72 @@ ref = require('fission'), component = ref.component, DOM = ref.DOM;
 div = DOM.div;
 
 module.exports = component({
-  displayName: 'Index',
-  init: function() {
-    return null;
-  },
   render: function() {
     return div({
-      className: 'index-component'
-    }, 'test');
+      className: 'navbar-component'
+    }, div({
+      className: 'logo'
+    }, 'code & beats'));
   }
 });
 
 
 
-},{"fission":"/www/node/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js":[function(require,module,exports){
+},{"fission":"/www/node/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats-client/client/views/Index/index.coffee":[function(require,module,exports){
+var DOM, Navbar, component, div, ref;
+
+ref = require('fission'), component = ref.component, DOM = ref.DOM;
+
+Navbar = require('../../components/Navbar');
+
+div = DOM.div;
+
+module.exports = component({
+  displayName: 'Index',
+  init: function() {
+    var o;
+    o = {
+      red: 255,
+      green: 255,
+      blue: 255,
+      top: 50,
+      left: 50
+    };
+    return o;
+  },
+  mounted: function() {
+    return this.changeBackground = setInterval((function(_this) {
+      return function() {
+        return _this.setState({
+          red: Math.floor(Math.random() * (255 - 1) + 1),
+          green: Math.floor(Math.random() * (255 - 1) + 1),
+          blue: Math.floor(Math.random() * (255 - 1) + 1)
+        });
+      };
+    })(this), 500);
+  },
+  unmounted: function() {
+    return clearInterval(this.changeBackground);
+  },
+  render: function() {
+    return div({
+      className: 'index-component',
+      style: {
+        background: "rgb(" + this.state.red + ", " + this.state.green + ", " + this.state.blue + ")"
+      }
+    }, Navbar(), div({
+      className: 'dot',
+      style: {
+        top: (this.state.top - 5) + "%",
+        left: (this.state.left - 5) + "%"
+      }
+    }));
+  }
+});
+
+
+
+},{"../../components/Navbar":"/www/node/codeandbeats-client/client/components/Navbar/index.coffee","fission":"/www/node/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js":[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -9453,13 +9505,13 @@ module.exports = SubCollection;
 },{"ampersand-class-extend":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/ampersand-class-extend.js","ampersand-collection-underscore-mixin":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js","backbone-events-standalone":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/index.js","underscore":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/underscore/underscore.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/ampersand-class-extend.js":[function(require,module,exports){
 arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js"][0].apply(exports,arguments)
 },{"extend-object":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/node_modules/extend-object/extend-object.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/node_modules/extend-object/extend-object.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/backbone-events-standalone.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/index.js"][0].apply(exports,arguments)
 },{"./backbone-events-standalone":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/underscore/underscore.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-sync"] = window.ampersand["ampersand-sync"] || [];  window.ampersand["ampersand-sync"].push("3.0.3");}
 var _ = require('underscore');
@@ -9592,7 +9644,7 @@ var methodMap = {
 module.exports = require('./lib/');
 
 },{"./lib/":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
 },{"./parse":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
 // Load modules
 
@@ -9966,21 +10018,21 @@ exports.isBuffer = function (obj) {
 };
 
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/index.js"][0].apply(exports,arguments)
 },{"global/window":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js"][0].apply(exports,arguments)
 },{"is-function":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"][0].apply(exports,arguments)
 },{"for-each":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/index.js":[function(require,module,exports){
 'use strict';
 
@@ -12349,7 +12401,7 @@ module.exports = supportsHistory;
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
 arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js"][0].apply(exports,arguments)
 },{"./lib/":"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/index.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
 },{"./parse":"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/stringify.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
 arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js"][0].apply(exports,arguments)
 },{"./utils":"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
@@ -14460,7 +14512,7 @@ module.exports = isTypedArray;
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/index.js":[function(require,module,exports){
 arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js"][0].apply(exports,arguments)
 },{"lodash.isarguments":"/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js","lodash.isnative":"/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/node_modules/lodash.isnative/index.js"}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/node_modules/lodash.isnative/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"][0].apply(exports,arguments)
+arguments[4]["/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.isnative/index.js"][0].apply(exports,arguments)
 },{}],"/www/node/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
