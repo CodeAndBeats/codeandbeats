@@ -1,6 +1,7 @@
 {component, DOM} = require 'fission'
 
 Navbar = require '../../components/Navbar'
+sockets = require '../../lib/sockets'
 {div} = DOM
 
 module.exports = component
@@ -21,6 +22,9 @@ module.exports = component
         top: Math.floor (e.accelerationIncludingGravity.y * -5)+50
         left: Math.floor (e.accelerationIncludingGravity.x * 5)+50
 
+      sockets.emit 'accel',
+        top: @state.top
+        left: @state.left
 
     @changeBackground = setInterval =>
       @setState
