@@ -1,5 +1,6 @@
 {
   "author": "fractal (http://wearefractal.com)",
+  "mod-project-name": "codeandbeats",
   "devDependencies": {
     "browserify": "^9.0.3",
     "coffeeify": "^1.0.0",

@@ -9,7 +9,7 @@ React.render(Index(), document.body);
 
 
 
-},{"./views/Index":"/www/node/codeandbeats/codeandbeats-client/client/views/Index/index.coffee","fission":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats/codeandbeats-client/client/components/Message/index.coffee":[function(require,module,exports){
+},{"./views/Index":"/Users/funkytek/apps/codeandbeats/app/client/views/Index/index.coffee","fission":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/index.js"}],"/Users/funkytek/apps/codeandbeats/app/client/components/Message/index.coffee":[function(require,module,exports){
 var DOM, component, div, ref;
 
 ref = require('fission'), component = ref.component, DOM = ref.DOM;
@@ -43,7 +43,7 @@ module.exports = component({
 
 
 
-},{"fission":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats/codeandbeats-client/client/components/Navbar/index.coffee":[function(require,module,exports){
+},{"fission":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/index.js"}],"/Users/funkytek/apps/codeandbeats/app/client/components/Navbar/index.coffee":[function(require,module,exports){
 var DOM, component, div, ref;
 
 ref = require('fission'), component = ref.component, DOM = ref.DOM;
@@ -62,7 +62,7 @@ module.exports = component({
 
 
 
-},{"fission":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats/codeandbeats-client/client/lib/sockets.coffee":[function(require,module,exports){
+},{"fission":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/index.js"}],"/Users/funkytek/apps/codeandbeats/app/client/lib/sockets.coffee":[function(require,module,exports){
 var client, io;
 
 io = require('socket.io-client');
@@ -73,7 +73,7 @@ module.exports = client;
 
 
 
-},{"socket.io-client":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/index.js"}],"/www/node/codeandbeats/codeandbeats-client/client/views/Index/index.coffee":[function(require,module,exports){
+},{"socket.io-client":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/index.js"}],"/Users/funkytek/apps/codeandbeats/app/client/views/Index/index.coffee":[function(require,module,exports){
 var DOM, Message, Navbar, component, div, ref, sockets;
 
 ref = require('fission'), component = ref.component, DOM = ref.DOM;
@@ -180,7 +180,7 @@ module.exports = component({
 
 
 
-},{"../../components/Message":"/www/node/codeandbeats/codeandbeats-client/client/components/Message/index.coffee","../../components/Navbar":"/www/node/codeandbeats/codeandbeats-client/client/components/Navbar/index.coffee","../../lib/sockets":"/www/node/codeandbeats/codeandbeats-client/client/lib/sockets.coffee","fission":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js":[function(require,module,exports){
+},{"../../components/Message":"/Users/funkytek/apps/codeandbeats/app/client/components/Message/index.coffee","../../components/Navbar":"/Users/funkytek/apps/codeandbeats/app/client/components/Navbar/index.coffee","../../lib/sockets":"/Users/funkytek/apps/codeandbeats/app/client/lib/sockets.coffee","fission":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/index.js":[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -1492,7 +1492,7 @@ function decodeUtf8Char (str) {
   }
 }
 
-},{"base64-js":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js","ieee754":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js","is-array":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js":[function(require,module,exports){
+},{"base64-js":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js","ieee754":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js","is-array":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/base64-js/lib/b64.js":[function(require,module,exports){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
 ;(function (exports) {
@@ -1618,7 +1618,7 @@ var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 	exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/ieee754/index.js":[function(require,module,exports){
 exports.read = function(buffer, offset, isLE, mLen, nBytes) {
   var e, m,
       eLen = nBytes * 8 - mLen - 1,
@@ -1704,7 +1704,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js":[function(require,module,exports){
 
 /**
  * isArray
@@ -1739,7 +1739,7 @@ module.exports = isArray || function (val) {
   return !! val && '[object Array]' == str.call(val);
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -1798,7 +1798,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/punycode/punycode.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/punycode/punycode.js":[function(require,module,exports){
 (function (global){
 /*! http://mths.be/punycode v1.2.4 by @mathias */
 ;(function(root) {
@@ -2309,7 +2309,7 @@ process.umask = function() { return 0; };
 }(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/querystring-es3/decode.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/querystring-es3/decode.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -2395,7 +2395,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/querystring-es3/encode.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/querystring-es3/encode.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -2482,13 +2482,13 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/querystring-es3/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/querystring-es3/index.js":[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/querystring-es3/decode.js","./encode":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/querystring-es3/encode.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/url/url.js":[function(require,module,exports){
+},{"./decode":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/querystring-es3/decode.js","./encode":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/querystring-es3/encode.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/url/url.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -3197,7 +3197,7 @@ function isNullOrUndefined(arg) {
   return  arg == null;
 }
 
-},{"punycode":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/punycode/punycode.js","querystring":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/querystring-es3/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/index.js":[function(require,module,exports){
+},{"punycode":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/punycode/punycode.js","querystring":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/querystring-es3/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/index.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -3226,7 +3226,7 @@ module.exports = {
   PropTypes: React.PropTypes,
   render: React.render
 };
-},{"./lib/data/collection":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/collection.js","./lib/data/model":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/model.js","./lib/renderables/collectionView":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/collectionView.js","./lib/renderables/component":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/component.js","./lib/renderables/modelView":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/modelView.js","./lib/renderables/view":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/view.js","fission-router":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/index.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/collection.js":[function(require,module,exports){
+},{"./lib/data/collection":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/collection.js","./lib/data/model":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/model.js","./lib/renderables/collectionView":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/collectionView.js","./lib/renderables/component":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/component.js","./lib/renderables/modelView":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/modelView.js","./lib/renderables/view":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/view.js","fission-router":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/index.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/collection.js":[function(require,module,exports){
 'use strict';
 
 var Collection = require('ampersand-collection');
@@ -3251,7 +3251,7 @@ module.exports.extend = function() {
   return module.exports(Collection.extend.apply(null, arguments));
 };
 
-},{"./mixins/ExtendedURLMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/mixins/ExtendedURLMixin.js","ampersand-collection":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js","ampersand-collection-rest-mixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/ampersand-collection-rest-mixin.js","ampersand-collection-underscore-mixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js","ampersand-sync":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/mixins/ExtendedURLMixin.js":[function(require,module,exports){
+},{"./mixins/ExtendedURLMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/mixins/ExtendedURLMixin.js","ampersand-collection":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js","ampersand-collection-rest-mixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/ampersand-collection-rest-mixin.js","ampersand-collection-underscore-mixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js","ampersand-sync":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/mixins/ExtendedURLMixin.js":[function(require,module,exports){
 'use strict';
 
 // TODO: support query param
@@ -3259,7 +3259,7 @@ module.exports.extend = function() {
 module.exports = {
 
 };
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/model.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/model.js":[function(require,module,exports){
 'use strict';
 
 var Model = require('ampersand-model');
@@ -3284,7 +3284,7 @@ module.exports.extend = function() {
   return module.exports(Model.extend.apply(null, arguments));
 };
 
-},{"./mixins/ExtendedURLMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/mixins/ExtendedURLMixin.js","ampersand-model":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/ampersand-model.js","ampersand-sync":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js","lodash.clone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/collectionView.js":[function(require,module,exports){
+},{"./mixins/ExtendedURLMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/mixins/ExtendedURLMixin.js","ampersand-model":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/ampersand-model.js","ampersand-sync":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js","lodash.clone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/collectionView.js":[function(require,module,exports){
 'use strict';
 
 var Collection = require('ampersand-collection');
@@ -3440,7 +3440,7 @@ module.exports = function(config) {
 
   return view(config, [CollectionViewMixin]);
 };
-},{"../util/ensureInstance":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/ensureInstance.js","./view":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/view.js","ampersand-collection":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js","ampersand-subcollection":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/ampersand-subcollection.js","lodash.merge":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/index.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/component.js":[function(require,module,exports){
+},{"../util/ensureInstance":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/ensureInstance.js","./view":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/view.js","ampersand-collection":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js","ampersand-subcollection":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/ampersand-subcollection.js","lodash.merge":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/index.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/component.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -3467,7 +3467,7 @@ module.exports = function(config, mixins) {
 
   return React.createFactory(React.createClass(vu));
 };
-},{"../util/alias":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/alias.js","./mixins/Pure":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/mixins/Pure.js","./mixins/Style":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/mixins/Style.js","is-array":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/is-array/index.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/mixins/Pure.js":[function(require,module,exports){
+},{"../util/alias":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/alias.js","./mixins/Pure":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/mixins/Pure.js","./mixins/Style":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/mixins/Style.js","is-array":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/is-array/index.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/mixins/Pure.js":[function(require,module,exports){
 'use strict';
 
 var shallowEqual = require('react/lib/shallowEqual');
@@ -3487,7 +3487,7 @@ function didPathChange(currPath) {
   lastPath = currPath;
   return pathChanged;
 }
-},{"react/lib/shallowEqual":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shallowEqual.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/mixins/Style.js":[function(require,module,exports){
+},{"react/lib/shallowEqual":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shallowEqual.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/mixins/Style.js":[function(require,module,exports){
 'use strict';
 
 var insertCSS = require('insert-css');
@@ -3502,7 +3502,7 @@ module.exports = {
     inserted[this.css] = true;
   }
 };
-},{"insert-css":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/insert-css/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/mixins/Sugar.js":[function(require,module,exports){
+},{"insert-css":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/insert-css/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/mixins/Sugar.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -3518,7 +3518,7 @@ module.exports = {
   }
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/modelView.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/modelView.js":[function(require,module,exports){
 'use strict';
 
 var Model = require('ampersand-model');
@@ -3615,7 +3615,7 @@ module.exports = function(config) {
 
   return view(config, [ModelViewMixin]);
 };
-},{"../util/ensureInstance":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/ensureInstance.js","./view":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/view.js","ampersand-model":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/ampersand-model.js","lodash.merge":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/index.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/view.js":[function(require,module,exports){
+},{"../util/ensureInstance":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/ensureInstance.js","./view":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/view.js","ampersand-model":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/ampersand-model.js","lodash.merge":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/index.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/view.js":[function(require,module,exports){
 'use strict';
 
 var Router = require('fission-router');
@@ -3636,7 +3636,7 @@ module.exports = function(config, mixins) {
   }
   return component(config, (mixins || []).concat(fissionMixins));
 };
-},{"./component":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/component.js","./mixins/Sugar":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/renderables/mixins/Sugar.js","fission-router":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/index.js","is-array":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/is-array/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/alias.js":[function(require,module,exports){
+},{"./component":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/component.js","./mixins/Sugar":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/renderables/mixins/Sugar.js","fission-router":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/index.js","is-array":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/is-array/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/alias.js":[function(require,module,exports){
 'use strict';
 
 var clone = require('lodash.clone');
@@ -3669,7 +3669,7 @@ function alias(config) {
 }
 
 module.exports = alias;
-},{"lodash.clone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/combineQS.js":[function(require,module,exports){
+},{"lodash.clone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/combineQS.js":[function(require,module,exports){
 'use strict';
 
 var merge = require('lodash.merge');
@@ -3686,7 +3686,7 @@ module.exports = function(modelUrl, query){
   parsed.query = merge(parsed.query, query);
   return url.format(parsed);
 };
-},{"lodash.merge":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/index.js","url":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/url/url.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/ensureInstance.js":[function(require,module,exports){
+},{"lodash.merge":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/index.js","url":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/url/url.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/ensureInstance.js":[function(require,module,exports){
 'use strict';
 
 var clone = require('lodash.clone');
@@ -3766,7 +3766,7 @@ module.exports = {
   model: constructModel,
   collection: constructCollection
 };
-},{"../data/collection":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/collection.js","../data/model":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/data/model.js","../util/combineQS":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/lib/util/combineQS.js","ampersand-collection":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js","ampersand-model":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/ampersand-model.js","lodash.clone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/ampersand-collection-rest-mixin.js":[function(require,module,exports){
+},{"../data/collection":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/collection.js","../data/model":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/data/model.js","../util/combineQS":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/lib/util/combineQS.js","ampersand-collection":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js","ampersand-model":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/ampersand-model.js","lodash.clone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/ampersand-collection-rest-mixin.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-collection-rest-mixin"] = window.ampersand["ampersand-collection-rest-mixin"] || [];  window.ampersand["ampersand-collection-rest-mixin"].push("3.0.1");}
 var sync = require('ampersand-sync');
 var extend = require('extend-object');
@@ -3868,7 +3868,7 @@ module.exports = {
     }
 };
 
-},{"ampersand-sync":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/ampersand-sync.js","extend-object":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
+},{"ampersand-sync":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/ampersand-sync.js","extend-object":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
 var _ = require('underscore');
 var xhr = require('xhr');
 var qs = require('qs');
@@ -3989,10 +3989,10 @@ var methodMap = {
     'read':   'GET'
 };
 
-},{"qs":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/index.js","underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js","xhr":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/index.js":[function(require,module,exports){
+},{"qs":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/index.js","underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js","xhr":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/index.js":[function(require,module,exports){
 module.exports = require('./lib');
 
-},{"./lib":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
+},{"./lib":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
 // Load modules
 
 var Stringify = require('./stringify');
@@ -4009,7 +4009,7 @@ module.exports = {
     parse: Parse
 };
 
-},{"./parse":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
+},{"./parse":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -4166,7 +4166,7 @@ module.exports = function (str, depth, delimiter) {
     return Utils.compact(obj);
 };
 
-},{"./utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+},{"./utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js":[function(require,module,exports){
 (function (Buffer){
 // Load modules
 
@@ -4225,7 +4225,7 @@ module.exports = function (obj, delimiter) {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/utils.js":[function(require,module,exports){
+},{"buffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/utils.js":[function(require,module,exports){
 (function (Buffer){
 // Load modules
 
@@ -4362,7 +4362,7 @@ exports.compact = function (obj) {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
+},{"buffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
 //     Underscore.js 1.6.0
 //     http://underscorejs.org
 //     (c) 2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -5707,7 +5707,7 @@ exports.compact = function (obj) {
   }
 }).call(this);
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
 var window = require("global/window")
 var once = require("once")
 var parseHeaders = require('parse-headers')
@@ -5886,7 +5886,7 @@ function createXHR(options, callback) {
 
 function noop() {}
 
-},{"global/window":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
+},{"global/window":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
 (function (global){
 if (typeof window !== "undefined") {
     module.exports = window;
@@ -5899,7 +5899,7 @@ if (typeof window !== "undefined") {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
 module.exports = once
 
 once.proto = once(function () {
@@ -5920,7 +5920,7 @@ function once (fn) {
   }
 }
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
 var isFunction = require('is-function')
 
 module.exports = forEach
@@ -5968,7 +5968,7 @@ function forEachObject(object, iterator, context) {
     }
 }
 
-},{"is-function":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
+},{"is-function":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
 module.exports = isFunction
 
 var toString = Object.prototype.toString
@@ -5985,7 +5985,7 @@ function isFunction (fn) {
       fn === window.prompt))
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
 
 exports = module.exports = trim;
 
@@ -6001,7 +6001,7 @@ exports.right = function(str){
   return str.replace(/\s*$/, '');
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
 var trim = require('trim')
   , forEach = require('for-each')
   , isArray = function(arg) {
@@ -6033,7 +6033,7 @@ module.exports = function (headers) {
 
   return result
 }
-},{"for-each":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js":[function(require,module,exports){
+},{"for-each":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js":[function(require,module,exports){
 var arr = [];
 var each = arr.forEach;
 var slice = arr.slice;
@@ -6050,7 +6050,7 @@ module.exports = function(obj) {
     return obj;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-collection-underscore-mixin"] = window.ampersand["ampersand-collection-underscore-mixin"] || [];  window.ampersand["ampersand-collection-underscore-mixin"].push("1.0.3");}
 var _ = require('underscore');
 var slice = [].slice;
@@ -6117,7 +6117,7 @@ mixins.pluck = function (attr) {
 
 module.exports = mixins;
 
-},{"underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js":[function(require,module,exports){
+},{"underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js":[function(require,module,exports){
 //     Underscore.js 1.8.2
 //     http://underscorejs.org
 //     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -7655,7 +7655,7 @@ module.exports = mixins;
   }
 }.call(this));
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/ampersand-collection.js":[function(require,module,exports){
 var BackboneEvents = require('backbone-events-standalone');
 var classExtend = require('ampersand-class-extend');
 var isArray = require('is-array');
@@ -8009,7 +8009,7 @@ Collection.extend = classExtend;
 
 module.exports = Collection;
 
-},{"amp-bind":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/bind.js","ampersand-class-extend":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js","backbone-events-standalone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js","extend-object":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js","is-array":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/is-array/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/bind.js":[function(require,module,exports){
+},{"amp-bind":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/bind.js","ampersand-class-extend":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js","backbone-events-standalone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js","extend-object":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js","is-array":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/is-array/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/bind.js":[function(require,module,exports){
 var isFunction = require('amp-is-function');
 var isObject = require('amp-is-object');
 var nativeBind = Function.prototype.bind;
@@ -8034,7 +8034,7 @@ module.exports = function bind(func, context) {
     return bound;
 };
 
-},{"amp-is-function":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-function/is-function.js","amp-is-object":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-object/is-object.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-function/is-function.js":[function(require,module,exports){
+},{"amp-is-function":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-function/is-function.js","amp-is-object":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-object/is-object.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-function/is-function.js":[function(require,module,exports){
 var toString = Object.prototype.toString;
 var func = function isFunction(obj) {
     return toString.call(obj) === '[object Function]';
@@ -8049,13 +8049,13 @@ if (typeof /./ !== 'function') {
 
 module.exports = func;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-object/is-object.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/amp-bind/node_modules/amp-is-object/is-object.js":[function(require,module,exports){
 module.exports = function isObject(obj) {
     var type = typeof obj;
     return !!obj && (type === 'function' || type === 'object');
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js":[function(require,module,exports){
 var objectExtend = require('extend-object');
 
 
@@ -8105,7 +8105,7 @@ var extend = function(protoProps) {
 // Expose the extend function
 module.exports = extend;
 
-},{"extend-object":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
+},{"extend-object":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
 /**
  * Standalone extraction of Backbone.Events, no external dependency required.
  * Degrades nicely when Backone/underscore are already available in the current
@@ -8373,12 +8373,12 @@ module.exports = extend;
   }
 })(this);
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
 module.exports = require('./backbone-events-standalone');
 
-},{"./backbone-events-standalone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/ampersand-model.js":[function(require,module,exports){
+},{"./backbone-events-standalone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/extend-object/extend-object.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/ampersand-model.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-model"] = window.ampersand["ampersand-model"] || [];  window.ampersand["ampersand-model"].push("4.0.4");}
 var State = require('ampersand-state');
 var _ = require('underscore');
@@ -8512,7 +8512,7 @@ var wrapError = function (model, options) {
 
 module.exports = Model;
 
-},{"ampersand-state":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/ampersand-state.js","ampersand-sync":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/ampersand-sync.js","underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/ampersand-state.js":[function(require,module,exports){
+},{"ampersand-state":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/ampersand-state.js","ampersand-sync":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/ampersand-sync.js","underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/ampersand-state.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-state"] = window.ampersand["ampersand-state"] || [];  window.ampersand["ampersand-state"].push("4.4.5");}
 var _ = require('underscore');
 var BBEvents = require('backbone-events-standalone');
@@ -9292,7 +9292,7 @@ Base.extend = extend;
 // Our main exports
 module.exports = Base;
 
-},{"array-next":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/array-next/array-next.js","backbone-events-standalone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/index.js","key-tree-store":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/key-tree-store/key-tree-store.js","underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/array-next/array-next.js":[function(require,module,exports){
+},{"array-next":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/array-next/array-next.js","backbone-events-standalone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/index.js","key-tree-store":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/key-tree-store/key-tree-store.js","underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/array-next/array-next.js":[function(require,module,exports){
 module.exports = function arrayNext(array, currentItem) {
     var len = array.length;
     var newIndex = array.indexOf(currentItem) + 1;
@@ -9300,11 +9300,11 @@ module.exports = function arrayNext(array, currentItem) {
     return array[newIndex];
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js"][0].apply(exports,arguments)
-},{"./backbone-events-standalone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/key-tree-store/key-tree-store.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js"][0].apply(exports,arguments)
+},{"./backbone-events-standalone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-state/node_modules/key-tree-store/key-tree-store.js":[function(require,module,exports){
 function KeyTreeStore() {
     this.storage = {};
 }
@@ -9345,37 +9345,37 @@ KeyTreeStore.prototype.get = function (keypath) {
 
 module.exports = KeyTreeStore;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/ampersand-sync.js"][0].apply(exports,arguments)
-},{"qs":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/index.js","underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/underscore/underscore.js","xhr":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/index.js"][0].apply(exports,arguments)
-},{"./lib":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
-},{"./parse":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/parse.js"][0].apply(exports,arguments)
-},{"./utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"][0].apply(exports,arguments)
-},{"buffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/utils.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"][0].apply(exports,arguments)
-},{"buffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"][0].apply(exports,arguments)
-},{"global/window":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js"][0].apply(exports,arguments)
-},{"is-function":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"][0].apply(exports,arguments)
-},{"for-each":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/ampersand-subcollection.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/ampersand-sync.js"][0].apply(exports,arguments)
+},{"qs":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/index.js","underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/underscore/underscore.js","xhr":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/index.js"][0].apply(exports,arguments)
+},{"./lib":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
+},{"./parse":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/parse.js"][0].apply(exports,arguments)
+},{"./utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"][0].apply(exports,arguments)
+},{"buffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/qs/lib/utils.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"][0].apply(exports,arguments)
+},{"buffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"][0].apply(exports,arguments)
+},{"global/window":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js"][0].apply(exports,arguments)
+},{"is-function":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"][0].apply(exports,arguments)
+},{"for-each":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-model/node_modules/underscore/underscore.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/ampersand-subcollection.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-subcollection"] = window.ampersand["ampersand-subcollection"] || [];  window.ampersand["ampersand-subcollection"].push("2.0.1");}
 var _ = require('underscore');
 var Events = require('backbone-events-standalone');
@@ -9600,17 +9600,17 @@ SubCollection.extend = classExtend;
 
 module.exports = SubCollection;
 
-},{"ampersand-class-extend":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/ampersand-class-extend.js","ampersand-collection-underscore-mixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js","backbone-events-standalone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/index.js","underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/underscore/underscore.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/ampersand-class-extend.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js"][0].apply(exports,arguments)
-},{"extend-object":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/node_modules/extend-object/extend-object.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/node_modules/extend-object/extend-object.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js"][0].apply(exports,arguments)
-},{"./backbone-events-standalone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-subcollection/node_modules/underscore/underscore.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
+},{"ampersand-class-extend":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/ampersand-class-extend.js","ampersand-collection-underscore-mixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/ampersand-collection-underscore-mixin.js","backbone-events-standalone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/index.js","underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/underscore/underscore.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/ampersand-class-extend.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/ampersand-class-extend/ampersand-class-extend.js"][0].apply(exports,arguments)
+},{"extend-object":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/node_modules/extend-object/extend-object.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/ampersand-class-extend/node_modules/extend-object/extend-object.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/extend-object/extend-object.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/backbone-events-standalone.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/backbone-events-standalone.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection/node_modules/backbone-events-standalone/index.js"][0].apply(exports,arguments)
+},{"./backbone-events-standalone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/backbone-events-standalone/backbone-events-standalone.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-subcollection/node_modules/underscore/underscore.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-underscore-mixin/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/ampersand-sync.js":[function(require,module,exports){
 ;if (typeof window !== "undefined") {  window.ampersand = window.ampersand || {};  window.ampersand["ampersand-sync"] = window.ampersand["ampersand-sync"] || [];  window.ampersand["ampersand-sync"].push("3.0.3");}
 var _ = require('underscore');
 var xhr = require('xhr');
@@ -9738,12 +9738,12 @@ var methodMap = {
     'read':   'GET'
 };
 
-},{"qs":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js","underscore":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/underscore/underscore.js","xhr":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js":[function(require,module,exports){
+},{"qs":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js","underscore":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/underscore/underscore.js","xhr":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js":[function(require,module,exports){
 module.exports = require('./lib/');
 
-},{"./lib/":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
-},{"./parse":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
+},{"./lib/":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
+},{"./parse":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js","./stringify":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -9902,7 +9902,7 @@ module.exports = function (str, options) {
     return Utils.compact(obj);
 };
 
-},{"./utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+},{"./utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -9981,7 +9981,7 @@ module.exports = function (obj, options) {
     return keys.join(delimiter);
 };
 
-},{"./utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js":[function(require,module,exports){
+},{"./utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js":[function(require,module,exports){
 // Load modules
 
 
@@ -10115,23 +10115,23 @@ exports.isBuffer = function (obj) {
         obj.constructor.isBuffer(obj));
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"][0].apply(exports,arguments)
-},{"global/window":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js"][0].apply(exports,arguments)
-},{"is-function":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"][0].apply(exports,arguments)
-},{"for-each":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/underscore/underscore.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/underscore/underscore.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/index.js"][0].apply(exports,arguments)
+},{"global/window":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js","once":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js","parse-headers":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/global/window.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/once/once.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js"][0].apply(exports,arguments)
+},{"is-function":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/node_modules/is-function/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/parse-headers.js"][0].apply(exports,arguments)
+},{"for-each":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/for-each/index.js","trim":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/xhr/node_modules/parse-headers/node_modules/trim/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/index.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -10174,7 +10174,7 @@ module.exports.locations = {
   Hash: Router.HashLocation,
   Refresh: Router.RefreshLocation
 };
-},{"./lib/renderRoute":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/lib/renderRoute.js","./lib/transformRoutes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/lib/transformRoutes.js","object-assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/object-assign/index.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react-router":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/lib/renderRoute.js":[function(require,module,exports){
+},{"./lib/renderRoute":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/lib/renderRoute.js","./lib/transformRoutes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/lib/transformRoutes.js","object-assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/object-assign/index.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react-router":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/lib/renderRoute.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -10185,7 +10185,7 @@ function renderRoute(renderTarget, Component){
 }
 
 module.exports = renderRoute;
-},{"react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/lib/transformRoutes.js":[function(require,module,exports){
+},{"react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/lib/transformRoutes.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -10245,7 +10245,7 @@ function transformRoutes(routes) {
 }
 
 module.exports = transformRoutes;
-},{"lodash.clone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/index.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react-router":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/object-assign/index.js":[function(require,module,exports){
+},{"lodash.clone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/index.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react-router":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/object-assign/index.js":[function(require,module,exports){
 'use strict';
 
 function ToObject(val) {
@@ -10273,7 +10273,7 @@ module.exports = Object.assign || function (target, source) {
 	return to;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Cancellation.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Cancellation.js":[function(require,module,exports){
 /**
  * Represents a cancellation caused by navigating away
  * before the previous transition has fully resolved.
@@ -10282,7 +10282,7 @@ function Cancellation() {}
 
 module.exports = Cancellation;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js":[function(require,module,exports){
 var warning = require('react/lib/warning');
 var invariant = require('react/lib/invariant');
 
@@ -10319,7 +10319,7 @@ var Configuration = {
 
 module.exports = Configuration;
 
-},{"react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","react/lib/warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js":[function(require,module,exports){
+},{"react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js":[function(require,module,exports){
 var invariant = require('react/lib/invariant');
 var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
 
@@ -10352,7 +10352,7 @@ var History = {
 
 module.exports = History;
 
-},{"react/lib/ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Navigation.js":[function(require,module,exports){
+},{"react/lib/ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Navigation.js":[function(require,module,exports){
 var PropTypes = require('./PropTypes');
 
 /**
@@ -10426,7 +10426,7 @@ var Navigation = {
 
 module.exports = Navigation;
 
-},{"./PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/NavigationContext.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/NavigationContext.js":[function(require,module,exports){
 var PropTypes = require('./PropTypes');
 
 /**
@@ -10456,7 +10456,7 @@ var NavigationContext = {
 
 module.exports = NavigationContext;
 
-},{"./PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js":[function(require,module,exports){
 var assign = require('react/lib/Object.assign');
 var ReactPropTypes = require('react').PropTypes;
 
@@ -10474,7 +10474,7 @@ var PropTypes = assign({
 
 module.exports = PropTypes;
 
-},{"react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react/lib/Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Redirect.js":[function(require,module,exports){
+},{"react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react/lib/Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Redirect.js":[function(require,module,exports){
 /**
  * Encapsulates a redirect to the given route.
  */
@@ -10486,7 +10486,7 @@ function Redirect(to, params, query) {
 
 module.exports = Redirect;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/RouteHandlerMixin.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/RouteHandlerMixin.js":[function(require,module,exports){
 var React = require('react');
 var assign = require('react/lib/Object.assign');
 var PropTypes = require('./PropTypes');
@@ -10540,7 +10540,7 @@ var RouteHandlerMixin = {
 
 module.exports = RouteHandlerMixin;
 
-},{"./PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react/lib/Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Routing.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react/lib/Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Routing.js":[function(require,module,exports){
 /* jshint -W084 */
 var React = require('react');
 var invariant = require('react/lib/invariant');
@@ -10700,7 +10700,7 @@ module.exports = {
   Route: Route
 };
 
-},{"./components/DefaultRoute":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/DefaultRoute.js","./components/NotFoundRoute":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/NotFoundRoute.js","./components/Redirect":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Redirect.js","./utils/Path":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Scrolling.js":[function(require,module,exports){
+},{"./components/DefaultRoute":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/DefaultRoute.js","./components/NotFoundRoute":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/NotFoundRoute.js","./components/Redirect":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Redirect.js","./utils/Path":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Scrolling.js":[function(require,module,exports){
 var invariant = require('react/lib/invariant');
 var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
 var getWindowScrollPosition = require('./utils/getWindowScrollPosition');
@@ -10785,7 +10785,7 @@ var Scrolling = {
 
 module.exports = Scrolling;
 
-},{"./utils/getWindowScrollPosition":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/State.js":[function(require,module,exports){
+},{"./utils/getWindowScrollPosition":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/State.js":[function(require,module,exports){
 var PropTypes = require('./PropTypes');
 
 /**
@@ -10864,7 +10864,7 @@ var State = {
 
 module.exports = State;
 
-},{"./PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/StateContext.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/StateContext.js":[function(require,module,exports){
 var assign = require('react/lib/Object.assign');
 var PropTypes = require('./PropTypes');
 var Path = require('./utils/Path');
@@ -10967,7 +10967,7 @@ var StateContext = {
 
 module.exports = StateContext;
 
-},{"./PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","./utils/Path":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js","react/lib/Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Transition.js":[function(require,module,exports){
+},{"./PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","./utils/Path":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js","react/lib/Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Transition.js":[function(require,module,exports){
 /* jshint -W058 */
 
 var Cancellation = require('./Cancellation');
@@ -11043,7 +11043,7 @@ Transition.to = function (transition, routes, params, query, callback) {
 };
 
 module.exports = Transition;
-},{"./Cancellation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Cancellation.js","./Redirect":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Redirect.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js":[function(require,module,exports){
+},{"./Cancellation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Cancellation.js","./Redirect":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Redirect.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js":[function(require,module,exports){
 /**
  * Actions that modify the URL.
  */
@@ -11068,7 +11068,7 @@ var LocationActions = {
 
 module.exports = LocationActions;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
 var LocationActions = require('../actions/LocationActions');
 
 /**
@@ -11097,7 +11097,7 @@ var ImitateBrowserBehavior = {
 
 module.exports = ImitateBrowserBehavior;
 
-},{"../actions/LocationActions":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
+},{"../actions/LocationActions":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
 /**
  * A scroll behavior that always scrolls to the top of the page
  * after a transition.
@@ -11112,7 +11112,7 @@ var ScrollToTopBehavior = {
 
 module.exports = ScrollToTopBehavior;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/DefaultRoute.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/DefaultRoute.js":[function(require,module,exports){
 var React = require('react');
 var Configuration = require('../Configuration');
 var PropTypes = require('../PropTypes');
@@ -11140,7 +11140,7 @@ var DefaultRoute = React.createClass({
 
 module.exports = DefaultRoute;
 
-},{"../Configuration":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Link.js":[function(require,module,exports){
+},{"../Configuration":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Link.js":[function(require,module,exports){
 var React = require('react');
 var classSet = require('react/lib/cx');
 var assign = require('react/lib/Object.assign');
@@ -11258,7 +11258,7 @@ var Link = React.createClass({
 
 module.exports = Link;
 
-},{"../Navigation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Navigation.js","../PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","../State":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/State.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react/lib/Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","react/lib/cx":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/cx.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/NotFoundRoute.js":[function(require,module,exports){
+},{"../Navigation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Navigation.js","../PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","../State":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/State.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react/lib/Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","react/lib/cx":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/cx.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/NotFoundRoute.js":[function(require,module,exports){
 var React = require('react');
 var Configuration = require('../Configuration');
 var PropTypes = require('../PropTypes');
@@ -11287,7 +11287,7 @@ var NotFoundRoute = React.createClass({
 
 module.exports = NotFoundRoute;
 
-},{"../Configuration":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Redirect.js":[function(require,module,exports){
+},{"../Configuration":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Redirect.js":[function(require,module,exports){
 var React = require('react');
 var Configuration = require('../Configuration');
 var PropTypes = require('../PropTypes');
@@ -11313,7 +11313,7 @@ var Redirect = React.createClass({
 
 module.exports = Redirect;
 
-},{"../Configuration":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Route.js":[function(require,module,exports){
+},{"../Configuration":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Route.js":[function(require,module,exports){
 var React = require('react');
 var Configuration = require('../Configuration');
 var PropTypes = require('../PropTypes');
@@ -11381,7 +11381,7 @@ var Route = React.createClass({
 
 module.exports = Route;
 
-},{"../Configuration":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","./RouteHandler":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/RouteHandler.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/RouteHandler.js":[function(require,module,exports){
+},{"../Configuration":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Configuration.js","../PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","./RouteHandler":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/RouteHandler.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/RouteHandler.js":[function(require,module,exports){
 var React = require('react');
 var RouteHandlerMixin = require('../RouteHandlerMixin');
 
@@ -11403,7 +11403,7 @@ var RouteHandler = React.createClass({
 
 module.exports = RouteHandler;
 
-},{"../RouteHandlerMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/RouteHandlerMixin.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/createRouter.js":[function(require,module,exports){
+},{"../RouteHandlerMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/RouteHandlerMixin.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/createRouter.js":[function(require,module,exports){
 (function (process){
 /* jshint -W058 */
 var React = require('react');
@@ -11927,7 +11927,7 @@ function createRouter(options) {
 module.exports = createRouter;
 
 }).call(this,require('_process'))
-},{"./Cancellation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Cancellation.js","./History":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","./NavigationContext":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/NavigationContext.js","./PropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","./Redirect":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Redirect.js","./Routing":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Routing.js","./Scrolling":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Scrolling.js","./StateContext":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/StateContext.js","./Transition":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Transition.js","./actions/LocationActions":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ImitateBrowserBehavior.js","./isReactChildren":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/isReactChildren.js","./locations/HashLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HashLocation.js","./locations/HistoryLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js","./locations/RefreshLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/RefreshLocation.js","./locations/StaticLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/StaticLocation.js","./utils/Path":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js","./utils/supportsHistory":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/supportsHistory.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js","react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","react/lib/warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/index.js":[function(require,module,exports){
+},{"./Cancellation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Cancellation.js","./History":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","./NavigationContext":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/NavigationContext.js","./PropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/PropTypes.js","./Redirect":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Redirect.js","./Routing":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Routing.js","./Scrolling":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Scrolling.js","./StateContext":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/StateContext.js","./Transition":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Transition.js","./actions/LocationActions":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ImitateBrowserBehavior.js","./isReactChildren":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/isReactChildren.js","./locations/HashLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HashLocation.js","./locations/HistoryLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/StaticLocation.js","./utils/Path":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js","./utils/supportsHistory":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/supportsHistory.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js","react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/index.js":[function(require,module,exports){
 exports.DefaultRoute = require('./components/DefaultRoute');
 exports.Link = require('./components/Link');
 exports.NotFoundRoute = require('./components/NotFoundRoute');
@@ -11952,7 +11952,7 @@ exports.create = require('./createRouter');
 exports.run = require('./runRouter');
 
 
-},{"./History":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","./Navigation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Navigation.js","./RouteHandlerMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/RouteHandlerMixin.js","./State":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/State.js","./behaviors/ImitateBrowserBehavior":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/DefaultRoute.js","./components/Link":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Link.js","./components/NotFoundRoute":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/NotFoundRoute.js","./components/Redirect":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Redirect.js","./components/Route":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Route.js","./components/RouteHandler":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/RouteHandler.js","./createRouter":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/createRouter.js","./locations/HashLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HashLocation.js","./locations/HistoryLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js","./locations/RefreshLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/RefreshLocation.js","./locations/StaticLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/StaticLocation.js","./runRouter":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/runRouter.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/isReactChildren.js":[function(require,module,exports){
+},{"./History":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","./Navigation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/Navigation.js","./RouteHandlerMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/RouteHandlerMixin.js","./State":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/State.js","./behaviors/ImitateBrowserBehavior":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/DefaultRoute.js","./components/Link":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Link.js","./components/NotFoundRoute":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/NotFoundRoute.js","./components/Redirect":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Redirect.js","./components/Route":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/Route.js","./components/RouteHandler":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/components/RouteHandler.js","./createRouter":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/createRouter.js","./locations/HashLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HashLocation.js","./locations/HistoryLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/StaticLocation.js","./runRouter":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/runRouter.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/isReactChildren.js":[function(require,module,exports){
 var React = require('react');
 
 function isValidChild(object) {
@@ -11965,7 +11965,7 @@ function isReactChildren(object) {
 
 module.exports = isReactChildren;
 
-},{"react":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HashLocation.js":[function(require,module,exports){
+},{"react":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HashLocation.js":[function(require,module,exports){
 var LocationActions = require('../actions/LocationActions');
 var History = require('../History');
 
@@ -12088,7 +12088,7 @@ var HashLocation = {
 
 module.exports = HashLocation;
 
-},{"../History":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","../actions/LocationActions":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js":[function(require,module,exports){
+},{"../History":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","../actions/LocationActions":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js":[function(require,module,exports){
 var LocationActions = require('../actions/LocationActions');
 var History = require('../History');
 
@@ -12178,7 +12178,7 @@ var HistoryLocation = {
 
 module.exports = HistoryLocation;
 
-},{"../History":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","../actions/LocationActions":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/RefreshLocation.js":[function(require,module,exports){
+},{"../History":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","../actions/LocationActions":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/actions/LocationActions.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/RefreshLocation.js":[function(require,module,exports){
 var HistoryLocation = require('./HistoryLocation');
 var History = require('../History');
 
@@ -12209,7 +12209,7 @@ var RefreshLocation = {
 
 module.exports = RefreshLocation;
 
-},{"../History":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","./HistoryLocation":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/StaticLocation.js":[function(require,module,exports){
+},{"../History":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/History.js","./HistoryLocation":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/HistoryLocation.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/locations/StaticLocation.js":[function(require,module,exports){
 var invariant = require('react/lib/invariant');
 
 function throwCannotModify() {
@@ -12239,7 +12239,7 @@ StaticLocation.prototype.toString = function () {
 
 module.exports = StaticLocation;
 
-},{"react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/runRouter.js":[function(require,module,exports){
+},{"react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/runRouter.js":[function(require,module,exports){
 var createRouter = require('./createRouter');
 
 /**
@@ -12289,7 +12289,7 @@ function runRouter(routes, location, callback) {
 
 module.exports = runRouter;
 
-},{"./createRouter":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/createRouter.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js":[function(require,module,exports){
+},{"./createRouter":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/createRouter.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/Path.js":[function(require,module,exports){
 var invariant = require('react/lib/invariant');
 var merge = require('qs/lib/utils').merge;
 var qs = require('qs');
@@ -12455,7 +12455,7 @@ var Path = {
 
 module.exports = Path;
 
-},{"qs":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/index.js","qs/lib/utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js","react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/getWindowScrollPosition.js":[function(require,module,exports){
+},{"qs":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/index.js","qs/lib/utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js","react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/getWindowScrollPosition.js":[function(require,module,exports){
 var invariant = require('react/lib/invariant');
 var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
 
@@ -12476,7 +12476,7 @@ function getWindowScrollPosition() {
 
 module.exports = getWindowScrollPosition;
 
-},{"react/lib/ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/supportsHistory.js":[function(require,module,exports){
+},{"react/lib/ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/modules/utils/supportsHistory.js":[function(require,module,exports){
 function supportsHistory() {
   /*! taken from modernizr
    * https://github.com/Modernizr/Modernizr/blob/master/LICENSE
@@ -12496,17 +12496,17 @@ function supportsHistory() {
 
 module.exports = supportsHistory;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js"][0].apply(exports,arguments)
-},{"./lib/":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
-},{"./parse":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/stringify.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js"][0].apply(exports,arguments)
-},{"./utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"][0].apply(exports,arguments)
-},{"./utils":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/insert-css/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/index.js"][0].apply(exports,arguments)
+},{"./lib/":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-collection-rest-mixin/node_modules/ampersand-sync/node_modules/qs/lib/index.js"][0].apply(exports,arguments)
+},{"./parse":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/stringify.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/parse.js"][0].apply(exports,arguments)
+},{"./utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/stringify.js"][0].apply(exports,arguments)
+},{"./utils":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/fission-router/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/ampersand-sync/node_modules/qs/lib/utils.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/insert-css/index.js":[function(require,module,exports){
 var inserted = {};
 
 module.exports = function (css, options) {
@@ -12530,9 +12530,9 @@ module.exports = function (css, options) {
     }
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/is-array/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/is-array/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/buffer/node_modules/is-array/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -12611,7 +12611,7 @@ function clone(value, isDeep, customizer, thisArg) {
 
 module.exports = clone;
 
-},{"lodash._baseclone":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/index.js","lodash._bindcallback":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._bindcallback/index.js","lodash._isiterateecall":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._isiterateecall/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/index.js":[function(require,module,exports){
+},{"lodash._baseclone":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/index.js","lodash._bindcallback":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._bindcallback/index.js","lodash._isiterateecall":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._isiterateecall/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/index.js":[function(require,module,exports){
 (function (global){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
@@ -12944,7 +12944,7 @@ function constant(value) {
 module.exports = baseClone;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"lodash._arraycopy":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/index.js","lodash._arrayeach":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/index.js","lodash._basecopy":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basecopy/index.js","lodash._basefor":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basefor/index.js","lodash.isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js","lodash.isnative":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js","lodash.keys":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/index.js":[function(require,module,exports){
+},{"lodash._arraycopy":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/index.js","lodash._arrayeach":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/index.js","lodash._basecopy":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basecopy/index.js","lodash._basefor":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basefor/index.js","lodash.isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js","lodash.isnative":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js","lodash.keys":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -12975,7 +12975,7 @@ function arrayCopy(source, array) {
 
 module.exports = arrayCopy;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13008,7 +13008,7 @@ function arrayEach(array, iteratee) {
 
 module.exports = arrayEach;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basecopy/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basecopy/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13044,7 +13044,7 @@ function baseCopy(source, object, props) {
 
 module.exports = baseCopy;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basefor/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basefor/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13123,7 +13123,7 @@ function isObject(value) {
 
 module.exports = baseFor;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13283,7 +13283,7 @@ function escapeRegExp(string) {
 
 module.exports = isArray;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13401,7 +13401,7 @@ function escapeRegExp(string) {
 
 module.exports = isNative;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.3 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13641,7 +13641,7 @@ function keysIn(object) {
 
 module.exports = keys;
 
-},{"lodash.isarguments":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/node_modules/lodash.isarguments/index.js","lodash.isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js","lodash.isnative":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/node_modules/lodash.isarguments/index.js":[function(require,module,exports){
+},{"lodash.isarguments":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/node_modules/lodash.isarguments/index.js","lodash.isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js","lodash.isnative":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/node_modules/lodash.isarguments/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13716,7 +13716,7 @@ function isArguments(value) {
 
 module.exports = isArguments;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._bindcallback/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._bindcallback/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13782,7 +13782,7 @@ function identity(value) {
 
 module.exports = bindCallback;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._isiterateecall/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._isiterateecall/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.3 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -13886,7 +13886,7 @@ function isObject(value) {
 
 module.exports = isIterateeCall;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.2 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -14129,13 +14129,13 @@ var merge = createAssigner(baseMerge);
 
 module.exports = merge;
 
-},{"lodash._arraycopy":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arraycopy/index.js","lodash._arrayeach":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arrayeach/index.js","lodash._basefor":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._basefor/index.js","lodash._createassigner":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/index.js","lodash.isarguments":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js","lodash.isplainobject":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/index.js","lodash.istypedarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.istypedarray/index.js","lodash.keys":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/index.js","lodash.toplainobject":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arraycopy/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arrayeach/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._basefor/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basefor/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/index.js":[function(require,module,exports){
+},{"lodash._arraycopy":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arraycopy/index.js","lodash._arrayeach":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arrayeach/index.js","lodash._basefor":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._basefor/index.js","lodash._createassigner":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/index.js","lodash.isarguments":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js","lodash.isplainobject":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/index.js","lodash.istypedarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.istypedarray/index.js","lodash.keys":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/index.js","lodash.toplainobject":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arraycopy/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arraycopy/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._arrayeach/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._arrayeach/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._basefor/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basefor/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -14185,15 +14185,15 @@ function createAssigner(assigner) {
 
 module.exports = createAssigner;
 
-},{"lodash._bindcallback":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._bindcallback/index.js","lodash._isiterateecall":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._isiterateecall/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._bindcallback/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._bindcallback/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._isiterateecall/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._isiterateecall/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/node_modules/lodash.isarguments/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/index.js":[function(require,module,exports){
+},{"lodash._bindcallback":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._bindcallback/index.js","lodash._isiterateecall":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._isiterateecall/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._bindcallback/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._bindcallback/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._createassigner/node_modules/lodash._isiterateecall/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._isiterateecall/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/node_modules/lodash.isarguments/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isarray/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -14324,9 +14324,9 @@ var isPlainObject = !getPrototypeOf ? shimIsPlainObject : function(value) {
 
 module.exports = isPlainObject;
 
-},{"lodash._basefor":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._basefor/index.js","lodash.isnative":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.isnative/index.js","lodash.keysin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.isnative/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js":[function(require,module,exports){
+},{"lodash._basefor":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash._basefor/index.js","lodash.isnative":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.isnative/index.js","lodash.keysin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.isnative/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.3 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -14495,7 +14495,7 @@ function keysIn(object) {
 
 module.exports = keysIn;
 
-},{"lodash.isarguments":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.istypedarray/index.js":[function(require,module,exports){
+},{"lodash.isarguments":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.istypedarray/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -14607,11 +14607,11 @@ function isTypedArray(value) {
 
 module.exports = isTypedArray;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js"][0].apply(exports,arguments)
-},{"lodash.isarguments":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js","lodash.isnative":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/node_modules/lodash.isnative/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/node_modules/lodash.isnative/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.keys/index.js"][0].apply(exports,arguments)
+},{"lodash.isarguments":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js","lodash.isnative":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/node_modules/lodash.isnative/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.keys/node_modules/lodash.isnative/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash.isnative/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/index.js":[function(require,module,exports){
 /**
  * lodash 3.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -14652,11 +14652,11 @@ function toPlainObject(value) {
 
 module.exports = toPlainObject;
 
-},{"lodash._basecopy":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash._basecopy/index.js","lodash.keysin":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash.keysin/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash._basecopy/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basecopy/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash.keysin/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js"][0].apply(exports,arguments)
-},{"lodash.isarguments":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{"lodash._basecopy":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash._basecopy/index.js","lodash.keysin":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash.keysin/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash._basecopy/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.clone/node_modules/lodash._baseclone/node_modules/lodash._basecopy/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.toplainobject/node_modules/lodash.keysin/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js"][0].apply(exports,arguments)
+},{"lodash.isarguments":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarguments/index.js","lodash.isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/fission/node_modules/lodash.merge/node_modules/lodash.isarray/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14683,7 +14683,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/focusNode.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/focusNode.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -14905,7 +14905,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPropagators":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15024,7 +15024,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15159,7 +15159,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/memoizeStringOnly.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15259,7 +15259,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15641,7 +15641,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isTextInputElement.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15666,7 +15666,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15925,7 +15925,7 @@ var CompositionEventPlugin = {
 
 module.exports = CompositionEventPlugin;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPropagators":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16100,7 +16100,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16399,7 +16399,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16596,7 +16596,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/memoizeStringOnly.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16782,7 +16782,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getMarkupWrap.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16822,7 +16822,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16962,7 +16962,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPropagators":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17034,7 +17034,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014 Facebook, Inc.
@@ -17124,7 +17124,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17400,7 +17400,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/forEachAccumulated.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17680,7 +17680,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17901,7 +17901,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18043,7 +18043,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/forEachAccumulated.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18088,7 +18088,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18280,7 +18280,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18436,7 +18436,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypes.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18486,7 +18486,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/forEachAccumulated.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18544,7 +18544,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -18591,7 +18591,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18707,7 +18707,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18895,7 +18895,7 @@ React.version = '0.12.2';
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactChildren":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/deprecated.js","./onlyChild":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/onlyChild.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/onlyChild.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18938,7 +18938,7 @@ var ReactBrowserComponentMixin = {
 module.exports = ReactBrowserComponentMixin;
 
 }).call(this,require('_process'))
-},{"./ReactEmptyComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./ReactEmptyComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -19293,7 +19293,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isEventSupported.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isEventSupported.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19443,7 +19443,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/traverseAllChildren.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -19886,7 +19886,7 @@ var ReactComponent = {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./keyMirror":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./keyMirror":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -20008,7 +20008,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 }).call(this,require('_process'))
-},{"./ReactDOMIDOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./setInnerHTML":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/setInnerHTML.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/setInnerHTML.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21448,7 +21448,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js","./ReactContext":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./keyMirror":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js","./mapObject":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./keyMirror":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js","./mapObject":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -21510,7 +21510,7 @@ var ReactContext = {
 
 module.exports = ReactContext;
 
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -21544,7 +21544,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -21727,7 +21727,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/mapObject.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/mapObject.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -21792,7 +21792,7 @@ var ReactDOMButton = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./keyMirror":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22279,7 +22279,7 @@ assign(
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./isEventSupported":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isEventSupported.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/monitorCodeUse.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22329,7 +22329,7 @@ var ReactDOMForm = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22515,7 +22515,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./setInnerHTML":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/setInnerHTML.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/setInnerHTML.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22563,7 +22563,7 @@ var ReactDOMImg = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22741,7 +22741,7 @@ var ReactDOMInput = ReactCompositeComponent.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -22794,7 +22794,7 @@ var ReactDOMOption = ReactCompositeComponent.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -22978,7 +22978,7 @@ var ReactDOMSelect = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23187,7 +23187,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getTextContentAccessor.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -23328,7 +23328,7 @@ var ReactDOMTextarea = ReactCompositeComponent.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOM.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23401,7 +23401,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./Transaction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Transaction.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -23530,7 +23530,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/createFullPageComponent.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23790,7 +23790,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./performanceNow":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/performanceNow.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/performanceNow.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -23996,7 +23996,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -24242,7 +24242,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./ReactContext":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./ReactContext":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -24524,7 +24524,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/monitorCodeUse.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -24601,7 +24601,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24633,7 +24633,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24683,7 +24683,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginHub.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginHub.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24867,7 +24867,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./EventListener":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -24907,7 +24907,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25043,7 +25043,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/containsNode.js","./focusNode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/focusNode.js","./getActiveElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getActiveElement.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/containsNode.js","./focusNode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getActiveElement.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -25378,7 +25378,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactRootIndex.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -25625,7 +25625,7 @@ ReactLegacyElementFactory._isLegacyCallWarningEnabled = true;
 module.exports = ReactLegacyElementFactory;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./monitorCodeUse":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/monitorCodeUse.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -25673,7 +25673,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/adler32.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/adler32.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -26371,7 +26371,7 @@ ReactMount.renderComponent = deprecated(
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./containsNode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/containsNode.js","./deprecated":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/containsNode.js","./deprecated":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26799,7 +26799,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -26832,7 +26832,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -26905,7 +26905,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27061,7 +27061,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./emptyObject":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyObject.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./emptyObject":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyObject.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27145,7 +27145,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27312,7 +27312,7 @@ var ReactPropTransferer = {
 module.exports = ReactPropTransferer;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./joinClasses":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/joinClasses.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./joinClasses":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/joinClasses.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -27340,7 +27340,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27364,7 +27364,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27718,7 +27718,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/deprecated.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27774,7 +27774,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27950,7 +27950,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Transaction.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Transaction.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -27981,7 +27981,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -28061,7 +28061,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -28174,7 +28174,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Transaction.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28280,7 +28280,7 @@ ReactTextComponentFactory.type = ReactTextComponent;
 
 module.exports = ReactTextComponentFactory;
 
-},{"./DOMPropertyOperations":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./ReactComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactComponent.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/escapeTextForBrowser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -28570,7 +28570,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactPerf.js","./Transaction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Transaction.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Transaction.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28662,7 +28662,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/DOMProperty.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/DOMProperty.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28857,7 +28857,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPropagators":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isTextInputElement.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js","./shallowEqual":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shallowEqual.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shallowEqual.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -28888,7 +28888,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -29316,7 +29316,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventCharCode.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","./keyOf":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","./keyOf":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29362,7 +29362,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 
-},{"./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29408,7 +29408,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticCompositionEvent;
 
 
-},{"./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29447,7 +29447,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticMouseEvent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29605,7 +29605,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./PooledClass":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/PooledClass.js","./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventTarget.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventTarget.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29644,7 +29644,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticUIEvent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -29691,7 +29691,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticInputEvent;
 
 
-},{"./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29778,7 +29778,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventModifierState.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventModifierState.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29861,7 +29861,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventModifierState.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventModifierState.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29909,7 +29909,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventModifierState.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventModifierState.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -29971,7 +29971,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventTarget.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventTarget.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30032,7 +30032,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/SyntheticMouseEvent.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -30273,7 +30273,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30305,7 +30305,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{"./getUnboundedScrollPosition":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{"./getUnboundedScrollPosition":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -30371,7 +30371,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30405,7 +30405,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30437,7 +30437,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -30479,7 +30479,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/camelize.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./camelize":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/camelize.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30523,7 +30523,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isTextNode.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
+},{"./isTextNode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isTextNode.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30609,7 +30609,7 @@ function createArrayFrom(obj) {
 
 module.exports = createArrayFrom;
 
-},{"./toArray":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/toArray.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/toArray.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -30670,7 +30670,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactCompositeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -30760,7 +30760,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getMarkupWrap.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/cx.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/cx.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30799,7 +30799,7 @@ function cx(classNames) {
 
 module.exports = cx;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30857,7 +30857,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/CSSProperty.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/deprecated.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/CSSProperty.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/deprecated.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -30908,7 +30908,7 @@ function deprecated(namespace, oldName, newName, ctx, fn) {
 module.exports = deprecated;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/Object.assign.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/Object.assign.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30942,7 +30942,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -30966,7 +30966,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
+},{"_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31007,7 +31007,7 @@ function escapeTextForBrowser(text) {
 
 module.exports = escapeTextForBrowser;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -31076,7 +31076,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./ReactTextComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/traverseAllChildren.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./ReactTextComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -31105,7 +31105,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31136,7 +31136,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31165,7 +31165,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31217,7 +31217,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31322,7 +31322,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventCharCode.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventCharCode.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -31369,7 +31369,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31400,7 +31400,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -31517,7 +31517,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31592,7 +31592,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31627,7 +31627,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31664,7 +31664,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31704,7 +31704,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31737,7 +31737,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -31778,7 +31778,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/hyphenate.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/hyphenate.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -31892,7 +31892,7 @@ function instantiateReactComponent(element, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactNativeComponent.js","./warning":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -31949,7 +31949,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32014,7 +32014,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32042,7 +32042,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32086,7 +32086,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32111,7 +32111,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/isNode.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/isNode.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32152,7 +32152,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -32207,7 +32207,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32243,7 +32243,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32296,7 +32296,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32330,7 +32330,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -32364,7 +32364,7 @@ function monitorCodeUse(eventName, data) {
 module.exports = monitorCodeUse;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -32404,7 +32404,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32432,7 +32432,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32460,7 +32460,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/performance.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./performance":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/performance.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32538,7 +32538,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ExecutionEnvironment.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32582,7 +32582,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -32620,7 +32620,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 module.exports = shouldUpdateReactComponent;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -32692,7 +32692,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -32875,7 +32875,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/invariant.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/invariant.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -32920,14 +32920,14 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/emptyFunction.js","_process":"/www/node/codeandbeats/codeandbeats-client/node_modules/browserify/node_modules/process/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/emptyFunction.js","_process":"/Users/funkytek/apps/codeandbeats/app/node_modules/browserify/node_modules/process/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/react/react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/www/node/codeandbeats/codeandbeats-client/node_modules/react/lib/React.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/index.js":[function(require,module,exports){
+},{"./lib/React":"/Users/funkytek/apps/codeandbeats/app/node_modules/react/lib/React.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/index.js":[function(require,module,exports){
 
 module.exports = require('./lib/');
 
-},{"./lib/":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/index.js":[function(require,module,exports){
+},{"./lib/":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/index.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -33016,7 +33016,7 @@ exports.connect = lookup;
 exports.Manager = require('./manager');
 exports.Socket = require('./socket');
 
-},{"./manager":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/manager.js","./socket":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/socket.js","./url":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/url.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/debug/debug.js","socket.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/manager.js":[function(require,module,exports){
+},{"./manager":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/manager.js","./socket":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/socket.js","./url":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/url.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/debug/debug.js","socket.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/manager.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -33521,7 +33521,7 @@ Manager.prototype.onreconnect = function(){
   this.emitAll('reconnect', attempt);
 };
 
-},{"./on":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/on.js","./socket":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/socket.js","./url":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/url.js","backo2":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/backo2/index.js","component-bind":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/debug/debug.js","engine.io-client":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/index.js","indexof":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/indexof/index.js","object-component":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/object-component/index.js","socket.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/on.js":[function(require,module,exports){
+},{"./on":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/on.js","./socket":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/socket.js","./url":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/url.js","backo2":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/backo2/index.js","component-bind":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/debug/debug.js","engine.io-client":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/index.js","indexof":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/indexof/index.js","object-component":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/object-component/index.js","socket.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/on.js":[function(require,module,exports){
 
 /**
  * Module exports.
@@ -33547,7 +33547,7 @@ function on(obj, ev, fn) {
   };
 }
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/socket.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/socket.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -33934,7 +33934,7 @@ Socket.prototype.disconnect = function(){
   return this;
 };
 
-},{"./on":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/on.js","component-bind":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/debug/debug.js","has-binary":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/has-binary/index.js","socket.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/index.js","to-array":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/to-array/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/lib/url.js":[function(require,module,exports){
+},{"./on":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/on.js","component-bind":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/debug/debug.js","has-binary":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/has-binary/index.js","socket.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/index.js","to-array":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/to-array/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/lib/url.js":[function(require,module,exports){
 (function (global){
 
 /**
@@ -34011,7 +34011,7 @@ function url(uri, loc){
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/debug/debug.js","parseuri":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/parseuri/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/backo2/index.js":[function(require,module,exports){
+},{"debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/debug/debug.js","parseuri":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/parseuri/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/backo2/index.js":[function(require,module,exports){
 
 /**
  * Expose `Backoff`.
@@ -34098,7 +34098,7 @@ Backoff.prototype.setJitter = function(jitter){
 };
 
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-bind/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-bind/index.js":[function(require,module,exports){
 /**
  * Slice reference.
  */
@@ -34123,7 +34123,7 @@ module.exports = function(obj, fn){
   }
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js":[function(require,module,exports){
 
 /**
  * Expose `Emitter`.
@@ -34289,7 +34289,7 @@ Emitter.prototype.hasListeners = function(event){
   return !! this.listeners(event).length;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/debug/debug.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/debug/debug.js":[function(require,module,exports){
 
 /**
  * Expose `debug()` as the module.
@@ -34428,11 +34428,11 @@ try {
   if (window.localStorage) debug.enable(localStorage.debug);
 } catch(e){}
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/index.js":[function(require,module,exports){
 
 module.exports =  require('./lib/');
 
-},{"./lib/":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js":[function(require,module,exports){
+},{"./lib/":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js":[function(require,module,exports){
 
 module.exports = require('./socket');
 
@@ -34444,7 +34444,7 @@ module.exports = require('./socket');
  */
 module.exports.parser = require('engine.io-parser');
 
-},{"./socket":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js","engine.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js":[function(require,module,exports){
+},{"./socket":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js","engine.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js":[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies.
@@ -35153,7 +35153,7 @@ Socket.prototype.filterUpgrades = function (upgrades) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./transport":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","./transports":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js","component-emitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","indexof":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/indexof/index.js","parsejson":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js","parseqs":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","parseuri":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js":[function(require,module,exports){
+},{"./transport":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","./transports":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js","component-emitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","indexof":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/indexof/index.js","parsejson":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js","parseqs":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","parseuri":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -35314,7 +35314,7 @@ Transport.prototype.onClose = function () {
   this.emit('close');
 };
 
-},{"component-emitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js","engine.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js":[function(require,module,exports){
+},{"component-emitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js","engine.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js":[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies
@@ -35371,7 +35371,7 @@ function polling(opts){
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./polling-jsonp":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js","./polling-xhr":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js","./websocket":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js","xmlhttprequest":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js":[function(require,module,exports){
+},{"./polling-jsonp":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js","./polling-xhr":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js","./websocket":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js","xmlhttprequest":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js":[function(require,module,exports){
 (function (global){
 
 /**
@@ -35608,7 +35608,7 @@ JSONPPolling.prototype.doWrite = function (data, fn) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./polling":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-inherit":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js":[function(require,module,exports){
+},{"./polling":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-inherit":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js":[function(require,module,exports){
 (function (global){
 /**
  * Module requirements.
@@ -35996,7 +35996,7 @@ function unloadHandler() {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./polling":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-emitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js","component-inherit":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","xmlhttprequest":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js":[function(require,module,exports){
+},{"./polling":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-emitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js","component-inherit":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","xmlhttprequest":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -36243,7 +36243,7 @@ Polling.prototype.uri = function(){
   return schema + '://' + this.hostname + port + this.path + query;
 };
 
-},{"../transport":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","xmlhttprequest":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js":[function(require,module,exports){
+},{"../transport":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","xmlhttprequest":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -36483,7 +36483,7 @@ WS.prototype.check = function(){
   return !!WebSocket && !('__initialize' in WebSocket && this.name === WS.prototype.name);
 };
 
-},{"../transport":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","ws":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js":[function(require,module,exports){
+},{"../transport":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","ws":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js":[function(require,module,exports){
 // browser shim for xmlhttprequest module
 var hasCORS = require('has-cors');
 
@@ -36521,7 +36521,7 @@ module.exports = function(opts) {
   }
 }
 
-},{"has-cors":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js":[function(require,module,exports){
+},{"has-cors":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js":[function(require,module,exports){
 
 module.exports = function(a, b){
   var fn = function(){};
@@ -36529,7 +36529,7 @@ module.exports = function(a, b){
   a.prototype = new fn;
   a.prototype.constructor = a;
 };
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js":[function(require,module,exports){
 
 /**
  * This is the web browser implementation of `debug()`.
@@ -36678,7 +36678,7 @@ function load() {
 
 exports.enable(load());
 
-},{"./debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js":[function(require,module,exports){
+},{"./debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js":[function(require,module,exports){
 
 /**
  * This is the common logic for both the Node.js and web browser
@@ -36877,7 +36877,7 @@ function coerce(val) {
   return val;
 }
 
-},{"ms":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js":[function(require,module,exports){
+},{"ms":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js":[function(require,module,exports){
 /**
  * Helpers.
  */
@@ -36990,7 +36990,7 @@ function plural(ms, n, name) {
   return Math.ceil(ms / n) + ' ' + name + 's';
 }
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js":[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies.
@@ -37588,7 +37588,7 @@ exports.decodePayloadAsBinary = function (data, binaryType, callback) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./keys":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js","after":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js","arraybuffer.slice":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js","base64-arraybuffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js","blob":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js","has-binary":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js","utf8":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js":[function(require,module,exports){
+},{"./keys":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js","after":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js","arraybuffer.slice":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js","base64-arraybuffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js","blob":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js","has-binary":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js","utf8":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js":[function(require,module,exports){
 
 /**
  * Gets the keys for an object.
@@ -37609,7 +37609,7 @@ module.exports = Object.keys || function keys (obj){
   return arr;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js":[function(require,module,exports){
 module.exports = after
 
 function after(count, callback, err_cb) {
@@ -37639,7 +37639,7 @@ function after(count, callback, err_cb) {
 
 function noop() {}
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js":[function(require,module,exports){
 /**
  * An abstraction for slicing an arraybuffer even when
  * ArrayBuffer.prototype.slice is not supported
@@ -37670,7 +37670,7 @@ module.exports = function(arraybuffer, start, end) {
   return result.buffer;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js":[function(require,module,exports){
 /*
  * base64-arraybuffer
  * https://github.com/niklasvh/base64-arraybuffer
@@ -37731,7 +37731,7 @@ module.exports = function(arraybuffer, start, end) {
   };
 })("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/");
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js":[function(require,module,exports){
 (function (global){
 /**
  * Create a blob builder even when vendor prefixes exist
@@ -37784,7 +37784,7 @@ module.exports = (function() {
 })();
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js":[function(require,module,exports){
 (function (global){
 
 /*
@@ -37846,12 +37846,12 @@ function hasBinary(data) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
+},{"isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js":[function(require,module,exports){
 (function (global){
 /*! http://mths.be/utf8js v2.0.0 by @mathias */
 ;(function(root) {
@@ -38094,7 +38094,7 @@ module.exports = Array.isArray || function (arr) {
 }(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -38119,7 +38119,7 @@ try {
   module.exports = false;
 }
 
-},{"global":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js":[function(require,module,exports){
+},{"global":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js":[function(require,module,exports){
 
 /**
  * Returns `this`. Execute this without a "context" (i.e. without it being
@@ -38129,7 +38129,7 @@ try {
 
 module.exports = (function () { return this; })();
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js":[function(require,module,exports){
 (function (global){
 /**
  * JSON parse.
@@ -38164,7 +38164,7 @@ module.exports = function parsejson(data) {
   }
 };
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js":[function(require,module,exports){
 /**
  * Compiles a querystring
  * Returns string representation of the object
@@ -38203,7 +38203,7 @@ exports.decode = function(qs){
   return qry;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
 /**
  * Parses an URI
  *
@@ -38244,7 +38244,7 @@ module.exports = function parseuri(str) {
     return uri;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -38289,7 +38289,7 @@ function ws(uri, protocols, opts) {
 
 if (WebSocket) ws.prototype = WebSocket.prototype;
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/has-binary/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/has-binary/index.js":[function(require,module,exports){
 (function (global){
 
 /*
@@ -38351,9 +38351,9 @@ function hasBinary(data) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/indexof/index.js":[function(require,module,exports){
+},{"isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/indexof/index.js":[function(require,module,exports){
 
 var indexOf = [].indexOf;
 
@@ -38364,7 +38364,7 @@ module.exports = function(arr, obj){
   }
   return -1;
 };
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/object-component/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/object-component/index.js":[function(require,module,exports){
 
 /**
  * HOP ref.
@@ -38449,7 +38449,7 @@ exports.length = function(obj){
 exports.isEmpty = function(obj){
   return 0 == exports.length(obj);
 };
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
 /**
  * Parses an URI
  *
@@ -38476,7 +38476,7 @@ module.exports = function parseuri(str) {
   return uri;
 };
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js":[function(require,module,exports){
 (function (global){
 /*global Blob,File*/
 
@@ -38621,7 +38621,7 @@ exports.removeBlobs = function(data, callback) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./is-buffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/index.js":[function(require,module,exports){
+},{"./is-buffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/index.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -39023,7 +39023,7 @@ function error(data){
   };
 }
 
-},{"./binary":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js","./is-buffer":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","component-emitter":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/debug/debug.js","isarray":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js","json3":"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js"}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js":[function(require,module,exports){
+},{"./binary":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js","./is-buffer":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","component-emitter":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/debug/debug.js","isarray":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js","json3":"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js"}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js":[function(require,module,exports){
 (function (global){
 
 module.exports = isBuf;
@@ -39040,9 +39040,9 @@ function isBuf(obj) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js":[function(require,module,exports){
-arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js":[function(require,module,exports){
+arguments[4]["/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js":[function(require,module,exports){
 /*! JSON v3.2.6 | http://bestiejs.github.io/json3 | Copyright 2012-2013, Kit Cambridge | http://kit.mit-license.org */
 ;(function (window) {
   // Convenience aliases.
@@ -39905,7 +39905,7 @@ arguments[4]["/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-
   }
 }(this));
 
-},{}],"/www/node/codeandbeats/codeandbeats-client/node_modules/socket.io-client/node_modules/to-array/index.js":[function(require,module,exports){
+},{}],"/Users/funkytek/apps/codeandbeats/app/node_modules/socket.io-client/node_modules/to-array/index.js":[function(require,module,exports){
 module.exports = toArray
 
 function toArray(list, index) {
