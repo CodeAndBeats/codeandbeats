@@ -15,6 +15,13 @@ module.exports = component
     o
 
   mounted: ->
+
+    window.ondevicemotion = (e) =>
+      @setState
+        top: Math.floor (e.accelerationIncludingGravity.y * -5)+50
+        left: Math.floor (e.accelerationIncludingGravity.x * 5)+50
+
+
     @changeBackground = setInterval =>
       @setState
         red: Math.floor Math.random() * (255-1)+1

@@ -42,10 +42,11 @@ body {
   transition: all 3s;
 }
 .index-component .dot {
+  transition: all 0.2s;
   position: relative;
   width: 25px;
   height: 25px;
-  background: rgba(200,200,200,0.5);
-  box-shadow: 0 0 2px #555;
+  background: rgba(200,200,200,0.7);
+  box-shadow: 0 0 5px #000;
   border-radius: 50%;
 }

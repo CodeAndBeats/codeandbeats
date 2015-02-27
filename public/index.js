@@ -51,6 +51,14 @@ module.exports = component({
     return o;
   },
   mounted: function() {
+    window.ondevicemotion = (function(_this) {
+      return function(e) {
+        return _this.setState({
+          top: Math.floor((e.accelerationIncludingGravity.y * -5) + 50),
+          left: Math.floor((e.accelerationIncludingGravity.x * 5) + 50)
+        });
+      };
+    })(this);
     return this.changeBackground = setInterval((function(_this) {
       return function() {
         return _this.setState({
