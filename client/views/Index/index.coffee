@@ -1,6 +1,7 @@
 {component, DOM} = require 'fission'
 
 Navbar = require '../../components/Navbar'
+Message = require '../../components/Message'
 sockets = require '../../lib/sockets'
 {div} = DOM
 
@@ -14,13 +15,14 @@ module.exports = component
       top: 50
       left: 50
       name: null
+      connected: false
     o
 
   mounted: ->
 
     name = localStorage.getItem 'name'
 
-    if !name?
+    if not name?
       name = prompt 'Please enter your name'
       if name != null
         localStorage.setItem 'name', name
@@ -29,6 +31,12 @@ module.exports = component
     return unless name?
 
     @setState name: name
+
+    sockets.on 'connect', =>
+      @setState connected: true
+
+    sockets.on 'disconnect', =>
+      @setState connected: false
 
     window.ondevicemotion = (e) =>
       @setState
@@ -50,6 +58,9 @@ module.exports = component
   unmounted: ->
     clearInterval @changeBackground
 
+  reconnect: ->
+    window.location = '/'
+
   render: ->
     div
       className: 'index-component'
@@ -63,3 +74,7 @@ module.exports = component
         style:
           top: "#{@state.top-5}%"
           left: "#{@state.left-5}%"
+      if not @state.connected
+        Message
+          text: 'disconnected. Click to reconnect'
+          onClick: @reconnect
